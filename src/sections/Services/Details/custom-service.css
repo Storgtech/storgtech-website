@@ -1,0 +1,85 @@
+header {
+    top:0;
+    position: fixed !important;
+}
+
+#service-details {
+    padding-top:0;
+    margin:3em 0
+}
+
+#service-details hr {
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: var(--bs-border-width) solid;
+    border-color:#adb5bd;
+    opacity: 0,01;
+}
+
+#service-details .card {
+    /* box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    padding:0;
+    margin:0; 
+}
+
+
+#service-details .card .card-header {
+    background:none;
+    height:8vh;
+}
+/* 
+#service-details .card .card-header h4 {
+    background:none;
+    font-size:1.2rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    border-radius: 0.25rem;
+}
+ */
+/* #service-details .card .card-header a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    padding: 0.625rem 1rem;
+    border: 0;
+    border-radius: 0.25rem;
+    background-color: #2BD0C9;
+    color: #ffffff;
+    margin:15px 0;
+} */
+/* 
+#service-details .card .card-body {
+    padding: 0.625rem 1rem;
+} */
+
+
+#service-details .card .card-body ul {
+    padding: 0.625rem 1rem;
+    list-style:disc;
+    text-align:left;
+} 
+
+#service-details .card .card-body ul li::marker {
+    color:#2bd0c9;
+}
+
+
+#service-details .card .card-body ul li {
+    color:#1c1c1c;
+}
+
+
+#service-details .card .card-body ul li ul {
+    padding-top: 0
+}
+
+
+#service-details .card .card-footer .btn {
+    width:68%
+}
+
