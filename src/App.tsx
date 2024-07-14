@@ -21,7 +21,7 @@ import { Footer } from './components/Footer'
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import '@fortawesome/fontawesome-free/js/all.min';
 import './assets/css/custom.css';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import {HashRouter, Route, Routes} from "react-router-dom";
 // import { DomainChecker } from "./sections/DomainVerify/DomainChecker";
 import Checker from "./sections/DomainVerify/Checker";
 import ServiceDetails from "./sections/Services/Details/ServiceDetails";
@@ -29,14 +29,14 @@ import ServiceDetails from "./sections/Services/Details/ServiceDetails";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter base="/">
         <Routes>
             <Route path={'/'} element={<Index content={<StartPage />}/> } />
             <Route path={'/service-details/:ref'} element={<ServicesPage/>} />
             {/*<Route path={'/service-details/:ref'} element={<Index content={<ServiceDetails/>}/>} />*/}
             {/*<Route path={'/login'} element={<Index content={<Login/>}/>} />*/}
         </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
