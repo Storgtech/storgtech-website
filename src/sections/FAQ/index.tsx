@@ -8,44 +8,7 @@ import {
 } from './Faq.styles'
 
 const allFAQDatas = [
-  {
-    title: 'O que é a Storgtech?',
-    content: `A Storgtech é uma empresa especializada em tecnologias de informação e comunicação. 
-    Comercializamos software para desktop e web, oferecemos serviços de design gráfico e UI/UX, e 
-    implementamos soluções empresariais como criação de domínios, e-mails corporativos, marketing digital 
-    e subscrições de produtos Microsoft. Também proporcionamos formação no uso de ferramentas tecnológicas.`,
-  },
-  {
-    title: 'Quais tipos de software a Storgtech comercializa?',
-    content: `Comercializamos uma ampla gama de software, incluindo aplicações de desktop e web. 
-    Trabalhamos com soluções personalizadas para atender às necessidades específicas dos nossos clientes.`,
-  },
-  {
-    title: 'Que serviços de design a Storgtech oferece?',
-    content: `Oferecemos serviços de design gráfico e UI/UX, ajudando a criar interfaces atraentes e 
-    funcionais para websites e aplicações, além de materiais gráficos para marketing e branding.`,
-  },
-  {
-    title: 'Como a Storgtech pode ajudar na criação de domínios e e-mails corporativos?',
-    content: `A Storgtech oferece serviços completos de criação e gestão de domínios e e-mails corporativos, 
-    garantindo uma presença online profissional e eficiente para a sua empresa.`,
-  },
-  {
-    title: 'O que está incluído nas soluções de marketing digital da Storgtech?',
-    content: `As nossas soluções de marketing digital incluem estratégias de SEO, gestão de redes sociais, 
-    campanhas de publicidade online e análise de desempenho, visando aumentar a visibilidade e o alcance 
-    da sua empresa na internet.`,
-  },
-  {
-    title: 'Quais subscrições de produtos Microsoft a Storgtech oferece?',
-    content: `Oferecemos subscrições para uma variedade de produtos Microsoft, incluindo o Microsoft 365, 
-    que proporciona ferramentas essenciais para produtividade e colaboração empresarial.`,
-  },
-  {
-    title: 'A Storgtech oferece formação em que áreas?',
-    content: `Proporcionamos formação especializada no uso de diversas ferramentas tecnológicas, incluindo 
-    software de produtividade, ferramentas de design, e soluções empresariais da Microsoft, entre outras.`,
-  },
+  
   {
     title: 'Como posso solicitar um orçamento ou mais informações sobre os serviços da Storgtech?',
     content: `Pode solicitar um orçamento ou mais informações contactando-nos através do nosso botão
