@@ -90,11 +90,8 @@ export function     Services() {
                     </div>
                     <div className="col-lg-6">
                         <div className="our__services__section__right">
-                            <p>
-                                Simplifique sua rotina empresarial com
-                                soluções de automação personalizadas, otimizadas para
-                                liberar tempo e recursos valiosos, permitindo que sua equipe
-                                se concentre no crescimento estratégico.
+                          <p>
+                               
                             </p>
 
                             <p className="paragraph__01">
