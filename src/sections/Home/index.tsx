@@ -41,16 +41,14 @@ export function Home() {
                     <div className="col-lg-8">
                         <div className="home__section__left">
                             <h1>
-                                Nós criamos <span>soluções integradas</span> únicas & eficientes
+                                Nós criamos <span>soluções integradas,</span> únicas & eficientes
                             </h1>
                         </div>
                     </div>
                     <div className="col-lg-4">
                         <div className="home__section__right">
                             <p>
-                                A StorgTech é uma empresa de tecnologia de informação e
-                                comunicação focada no software e na web, implementação de
-                                soluções empresariais...
+                                Storgtech é uma empresa especializada em tecnologias de informação e comunicação, com foco na comercialização de software para desktop e web, design gráfico e UI/UX...
                             </p>
                             <Button
                                 onClick={() => handleClickSmoothScrolling('about__us')}
