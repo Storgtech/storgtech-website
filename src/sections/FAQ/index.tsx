@@ -86,9 +86,9 @@ export function FAQ() {
 
               <h2 className="faq__subtitle">Perguntas mais frequentes</h2>
               <p>
-                Utilize a nossa análise integrada Utilize a nossa análise
-                integrada painel de instrumentos Use o nosso painel de
-                instrumentos anal ytics embutido para puxar valioso ins.{' '}
+                Esta seção foi criada para esclarecer as suas dúvidas de forma rápida e eficaz. 
+                Se precisar de mais informações, não hesite em entrar em contacto connosco. 
+                Estamos sempre prontos para ajudar!
               </p>
             </div>
           </div>
