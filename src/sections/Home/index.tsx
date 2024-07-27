@@ -12,18 +12,18 @@ export function Home() {
     const infoSectionRightItens = [
         {
             amount: 2,
-            symbol: 'k',
+            symbol: '+',
             title: 'Anos de Experiências',
         },
         {
-            amount: 10,
+            amount: 1000,
             symbol: '+',
             title: 'Serviços Prestados',
         },
         {
-            amount: 3,
+            amount: 200,
             symbol: '+',
-            title: 'Especialistas',
+            title: 'Clientes no Mercado',
         },
 
         {
