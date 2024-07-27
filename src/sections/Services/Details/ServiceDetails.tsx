@@ -4,7 +4,7 @@ import  { useEffect, useState } from "react";
 import { OurServicesContainer } from '../Services.styles';
 import './custom-service.css';
 
-import { useParams } from "react-router-dom";
+import {Link, useParams} from "react-router-dom";
 import bg from '../../../assets/images/carousel/2.jpg';
 import ModalComponent from "../../../components/Modal/Modal";
 
@@ -228,10 +228,11 @@ const ServiceDetails = () => {
                             <p>{t.description}</p>
                         </div>
                         <div className="card-footer col-12 text-center p-3">
-                            <button onClick={() => {
-                                setModal(true);
-                                setOpt(keys)
-                            }} className='btn btn-outline-primary'>Contacte-nos</button>
+                            {/*<button onClick={() => {*/}
+                            {/*    setModal(true);*/}
+                            {/*    setOpt(keys)*/}
+                            {/*}} className='btn btn-outline-primary'>Contacte-nos</button>*/}
+                            <Link className='btn btn-outline-primary' to={`https://wa.me/message/T7MROWWPF2V3E1`}>Saiba mais</Link>
                         </div>
                     </div>
                 </div>
