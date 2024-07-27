@@ -38,7 +38,7 @@ const SearchWhoIs = () => {
         return (
             <div id='success'>
                 {domain} <span style={{ color: "lightgreen" }}> está disponível</span>,&nbsp;
-                <Link to={'#'} onClick={ () => setModal(true)} style={{color: "blue"}}>solicitar orçamento</Link>.
+                <Link to={'https://wa.me/message/T7MROWWPF2V3E1'} style={{color: "blue"}}>solicitar orçamento.</Link>
             </div>
         );
     }

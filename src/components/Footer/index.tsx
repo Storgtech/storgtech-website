@@ -120,19 +120,26 @@ export function Footer() {
                                 <div className="footer__social__networks">
                                     <ul className="nav__list">
                                         <li className="nav-item">
-                                            <a href="#" className="nav-link">
+                                            <a
+                                                target='_blank'
+                                                href="https://web.facebook.com/profile.php?id=61555501863828" className="nav-link">
                                                 <FacebookLogo size={22} />
                                             </a>
                                         </li>
 
                                         <li className="nav-item">
-                                            <a href="#" className="nav-link">
+                                            <a
+                                                target='_blank'
+                                                href='https://wa.me/message/T7MROWWPF2V3E1'
+                                                className="nav-link">
                                                 <WhatsappLogo size={22} />
                                             </a>
                                         </li>
 
                                         <li className="nav-item">
-                                            <a href="#" className="nav-link">
+                                            <a
+                                                target='_blank'
+                                                href="https://www.linkedin.com/company/storgtech-tecnologias-servi%C3%A7os-lda/" className="nav-link">
                                                 <LinkedinLogo size={22} />
                                             </a>
                                         </li>
