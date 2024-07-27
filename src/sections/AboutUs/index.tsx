@@ -31,10 +31,11 @@ export function AboutUS() {
               </h2>
 
               <p className="about__us__description">
-                  A StorgTech é uma empresa do ramo das tecnologias de informação e comunicação
-                  vocacionada na comercialização de softwares desktop e web, implementação de soluções
-                  empresariais incluindo subscrições Microsoft e capacitação no uso de ferramentas
-                  tecnológicas.
+                Storgtech é uma empresa especializada em tecnologias de informação e comunicação, 
+                com foco na comercialização de software para desktop e web, design gráfico e UI/UX. 
+                Oferecemos soluções empresariais abrangentes, incluindo a criação de domínios e e-mails corporativos, 
+                marketing digital e subscrições de produtos Microsoft. Além disso, proporcionamos formação especializada no uso de ferramentas tecnológicas, 
+                ajudando empresas e profissionais a aprimorar as suas competências e a maximizar a utilização das tecnologias disponíveis.
               </p>
 
               <button
