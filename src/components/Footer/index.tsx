@@ -144,14 +144,11 @@ export function Footer() {
                     <div className="footer__copyright">
                         &copy;2023 StorgTech. Design and coded by{' '}
                         <a
-                            href="https://www.github.com/herlander"
+                            href="https://www.github.com/Storgtech"
                             target="_blank"
                             rel="noreferrer"
                         >
-                            Herlander Bento
-                        </a>&nbsp; & &nbsp; Updated by &nbsp;
-                        <a href="https://www.github.com/tricioandrade" target='_blank'>
-                            Patrício Andrade
+                            StorgTech Tecnologias & Serviços, LDA
                         </a>
                     </div>
                 </div>
