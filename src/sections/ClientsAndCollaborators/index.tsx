@@ -70,7 +70,7 @@ export function ClientesAndCollaborators() {
           </div>
         </div>
 
-        <Slider className="mt__40" {...settings}>
+        <Slider className="mt__40" {...settings} style={{overflow: 'hidden'}}>
           {images.map(function (e, key) {
             return (
               <div key={key} className="clients__and__collaborators__items">

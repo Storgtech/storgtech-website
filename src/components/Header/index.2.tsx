@@ -25,11 +25,11 @@ const navLinks = [
         ref: 'services',
         counter: '03',
     },
-    {
-        name: 'Clientes',
-        ref: 'clients__and__collaborators',
-        counter: '04',
-    },
+    // {
+    //     name: 'Clientes',
+    //     ref: 'clients__and__collaborators',
+    //     counter: '04',
+    // },
     // {
     //     name: 'Boletim Informativo',
     //     ref: 'newsletter',

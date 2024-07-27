@@ -82,7 +82,7 @@ const StartPage = function() {
             {/*<Projects />*/}
             {/*<NewsLetter />*/}
             <FAQ />
-            <Contacts />
+            {/*<Contacts />*/}
 
         </>
     )
