@@ -1,6 +1,7 @@
 import { useNav } from '../../hooks/useNav'
 import { AboutUsSection } from './AboutUs.styles'
 import img1 from '../../assets/images/single-img-14.jpg';
+import img2 from '../../assets/images/single-img-13.jpg';
 
 import {
   ArrowRight,
@@ -64,7 +65,7 @@ export function AboutUS() {
                       <div className="about__us__single__Wrapper__01 mb__30">
                         <img
                           className="img-fluid"
-                          src="/images/single-img-13.jpg"
+                          src={img2}
                           alt=""
                         />
                       </div>
