@@ -232,7 +232,7 @@ const ServiceDetails = () => {
                             {/*    setModal(true);*/}
                             {/*    setOpt(keys)*/}
                             {/*}} className='btn btn-outline-primary'>Contacte-nos</button>*/}
-                            <Link className='btn btn-outline-primary' to={`https://wa.me/message/T7MROWWPF2V3E1`}>Saiba mais</Link>
+                            <Link className='btn btn-outline-primary' to={`https://wa.me/message/T7MROWWPF2V3E1`}>Contacta-nos</Link>
                         </div>
                     </div>
                 </div>

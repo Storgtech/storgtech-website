@@ -95,7 +95,7 @@ function Header() {
                             {navLinks.map((data: NavLinksProps) => renderNavLink(data))}
                         </Nav>
                         <Button
-                            onClick={() => handleClickSmoothScrolling('contacts')}
+                            onClick={() => open(`https://wa.me/message/T7MROWWPF2V3E1`)}
                             className="btn__contacts"
                             variant="primary"
                         >

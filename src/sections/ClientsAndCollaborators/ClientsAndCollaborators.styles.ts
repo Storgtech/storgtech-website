@@ -63,4 +63,9 @@ export const ClientesAndCollaboratorsSection = styled.section`
     display: flex;
     gap: 1rem;
   }
+    
+    .slick-slider button {
+      display:none !important;
+    }
+
 `
